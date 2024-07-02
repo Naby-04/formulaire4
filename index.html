@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaire 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <!----------------------------- image section ----------------------------->
+
+      <div class="image-side">
+        <img src="images/profil.jpg" alt="photo-profil" />
+      </div>
+
+      <!----------------------------- form section ----------------------------->
+
+      <div class="form-side">
+        <form action="#">
+          <!----------------------------- left side form ----------------------------->
+
+          <div class="left-side">
+            <div class="input-box green">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" />
+            </div>
+
+            <div class="input-box red">
+              <label for="name">LAST NAME</label>
+              <input type="text" id="name" />
+              <img src="icon/bxs-error-circle.png" alt="alert-icon" />
+            </div>
+
+            <div class="input-box">
+              <label for="company">COMPANY</label>
+              <input type="text" id="company" />
+            </div>
+
+            <div class="input-box">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" />
+            </div>
+
+            <div class="input-box">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" />
+            </div>
+          </div>
+          <!---------------------------- fin left side form --------------------------->
+          <!----------------------------- right side form ----------------------------->
+
+          <div class="right-side">
+            <div class="input-box">
+              <div class="label-box">
+                <label for="cheque">MEAL PREFERENCE</label>
+                <span>Lunch detail</span>
+              </div>
+              <input type="text" id="cheque" />
+            </div>
+
+            <!----------------------------- check list ----------------------------->
+
+            <div class="input-box">
+              <div class="label-box">
+                <label for="Payement-mode">PAYEMENT MODE</label>
+                <span>Payement detail</span>
+              </div>
+              <div class="paye-mode">
+                <div class="radio-box">
+                  <input type="radio" name="Payement-mode" value="cash" /><span
+                    >Cash</span
+                  >
+                </div>
+                <div class="radio-box">
+                  <input
+                    type="radio"
+                    name="Payement-mode"
+                    value="cheque"
+                  /><span>Cheque</span>
+                </div>
+                <div class="radio-box">
+                  <input type="radio" name="Payement-mode" value="draft" /><span
+                    >Demand Draft</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!----------------------------- fin check list ----------------------------->
+
+            <div class="input-box">
+              <label for="cheque">DD / CHEQUE NO.</label>
+              <input type="text" id="cheque" />
+            </div>
+
+            <div class="input-box">
+              <label for="bank-name">DRAWN ON ( BANK NAME )</label>
+              <input type="text" id="bank-name" />
+            </div>
+
+            <div class="input-box">
+              <label for="phone">PAYABLE AT</label>
+              <input type="text" id="phone" />
+            </div>
+          </div>
+          <!----------------------------- end right side form ----------------------------->
+        </form>
+        <!------------------------------ donation section ------------------------------>
+        <div class="donation">
+          <h2>.DONNATE US</h2>
+          <div class="progress-bar">
+            <div class="donate"><span>$500</span></div>
+          </div>
+        </div>
+        <div class="button-box">
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </div>
+      <!----------------------------- fin form section ----------------------------->
+    </div>
+  </body>
+</html>
